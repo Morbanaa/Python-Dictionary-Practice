@@ -3,7 +3,9 @@
 # World Series Winners
 
 def main():
-    pass
+    infile = open("WorldSeriesWinners.txt", "r")
+    file_contents = infile.read()
+    print(file_contents)
 
 if __name__ == "__main__":
     main()
